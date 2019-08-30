@@ -1,0 +1,44 @@
+The files in this archive contain notes and an annotated pipeline for analysis of data sets
+used in the publication.  The purpose of the archive is to fully document analytical
+procedures so that the methods might be replicated in different processing environments
+after necessary modifications are made. The file Index.txt contains descriptions of the
+resources contained in the archive. Please contact the authors with specific questions
+regarding use of the applications, scripts, pipelines, and routines.
+
+The archive contains the following resources:
+
+"MonolignolCandidateGenes.txt"
+	List of 135 lignin biosynthetic genes in sorghum.
+	
+"go-basic.obo.gz"
+	Gzipped gene ontology description file.
+	
+"SorRawGAF.txt"
+	Gene association file for sorghum. Relates gene names and GO terms.
+
+"regulat.txt"
+	List of 161 GO terms found in sorghum genome annotation that contain the root word 'regulat'
+	
+"US.txt"
+	Concatenated text of three publications on crop adaptation to climate in the United States used for latent semantic analysis
+	
+"sago.py"
+	Python script to run latent semantic analysis
+
+"READMEGOAnalysis.txt"
+	Command doc for keyword search approach, regulatory gene set
+	
+"READMEmonolignol.txt"
+	Command doc for candidate gene approach, lignin biosynthesis gene set
+
+"READMEsago.txt"
+	Command doc for latent semantic analysis approach, climate adaptation gene set
+
+"README Final Analysis 3.txt"
+	Command doc for M+ analyses
+	
+"READMEConsolidatedAnalysis.txt"
+	Command doc for summarizing M+ output
+	
+"READMEComparisonFigs.txt"
+	Command doc for analysis and plotting of summarized M+ output
